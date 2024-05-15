@@ -9,8 +9,28 @@ The Edgeberry **Console & CAN Hardware Cartridge** allows you to use your Edgebe
 ## Usage
 
 <img src="documentation/Edgeberry_assembly_3.png" align="left" width="32%" />
-Insert the Console & CAN Cartridge in the Edgeberry's expansion slot. Lorem ipsum
+Insert the Console & CAN Cartridge in the Edgeberry's expansion slot.
 <br clear="left"/>
+
+### Console
+Configure your Raspberry Pi to enable console access on the UART.
+```
+ToDo
+```
+Connect to your Edgeberry device with your computer system, and open a terminal emulation program (e.g. minicom, PuTTY) with the following settings
+```
+Speed: 115200 baud
+Bits: 8
+Parity: None
+Stop Bits: 1
+Flow Control: None
+```
+If this went well, you now have access to your Edgeberry's console.
+
+### CAN-bus
+```
+ToDo
+```
 
 ## License & Collaboration
 Copyright Sanne 'SpuQ' Santens. All rights reserved. For now - I'm looking into [open source hardware licenses](https://www.oshwa.org/).
