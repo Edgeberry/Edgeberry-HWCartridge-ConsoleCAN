@@ -8,8 +8,8 @@ The Edgeberry **Console & CAN Hardware Cartridge** is designed to snugly fit in 
 
 ## Usage
 
-<img src="documentation/Edgeberry_assembly_3.png" align="left" width="32%" />
-Insert the Console & CAN Cartridge in the Edgeberry's expansion slot.
+<img src="documentation/Edgeberry_insert_cartridge.png" align="left" width="32%" />
+Expand your Edgeberry's hardware by inserting the Hardware cartridge in the expansion slot. Then configure your Raspberry Pi for using this hardware.
 <br clear="left"/>
 
 ### Console
