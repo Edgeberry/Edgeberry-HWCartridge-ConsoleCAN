@@ -13,10 +13,18 @@ Expand your Edgeberry's hardware by inserting the Hardware cartridge in the expa
 <br clear="left"/>
 
 ### Console
-Configure your Raspberry Pi to enable console access on the UART.
+Configure your Raspberry Pi to enable console access on the UART with `raspi-config`, or by manually editing the boot configuration file
 ```
-ToDo
+sudo nano /boot/config.txt
 ```
+Enable the UART console by adding these lines
+```
+dtparam=uart0
+dtparam=uart0_console
+```
+Now reboot the device to apply these settings.
+
+
 Connect to your Edgeberry device with your computer system, and open a terminal emulation program (e.g. minicom, PuTTY) with the following settings
 ```
 Speed: 115200 baud
