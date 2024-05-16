@@ -13,11 +13,7 @@ Expand your Edgeberry's hardware by inserting the Hardware cartridge in the expa
 <br clear="left"/>
 
 ### Console
-Configure your Raspberry Pi to enable console access on the UART with `raspi-config`, or by manually editing the boot configuration file
-```
-sudo nano /boot/config.txt
-```
-Enable the UART console by adding these lines
+Configure your Raspberry Pi to enable console access on the UART with `raspi-config`, or by manually adding following lines the boot configuration file `/boot/config.txt`:
 ```
 dtparam=uart0
 dtparam=uart0_console
