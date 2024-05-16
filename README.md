@@ -6,7 +6,7 @@ The Edgeberry **Console & CAN Hardware Cartridge** is designed to snugly fit in 
 
 <br clear="right"/>
 
-## Usage
+## Setup & Usage
 
 <img src="documentation/Edgeberry_insert_cartridge.png" align="left" width="32%" />
 Expand your Edgeberry's hardware by inserting the Hardware cartridge in the expansion slot. Then configure your Raspberry Pi for using this hardware.
@@ -18,7 +18,7 @@ Configure your Raspberry Pi to enable console access on the UART with `raspi-con
 dtparam=uart0
 dtparam=uart0_console
 ```
-Now reboot the device to apply these settings.
+Now `reboot` the device to apply these settings.
 
 
 Connect to your Edgeberry device with your computer system, and open a terminal emulation program (e.g. minicom, PuTTY) with the following settings
