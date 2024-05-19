@@ -5289,6 +5289,17 @@
 		)
 		(uuid "fd389fa5-bfbd-495b-be18-603a3a67b80d")
 	)
+	(text "Interesting resources:"
+		(exclude_from_sim no)
+		(at 13.462 188.722 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left bottom)
+		)
+		(uuid "18e912cb-a80a-445c-ad9f-ddad77addad6")
+	)
 	(text "http://lnxpps.de/rpie/"
 		(exclude_from_sim no)
 		(at 13.97 194.31 0)
@@ -5324,6 +5335,19 @@
 		)
 		(uuid "323e546f-83d1-4713-b7a4-cf1134a84a33")
 	)
+	(text "EDGEBERRY Console & CAN Cartridge"
+		(exclude_from_sim no)
+		(at 178.308 171.704 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "539d6500-3912-4274-93f6-7082fc184bb2")
+	)
 	(text "UART to USB"
 		(exclude_from_sim no)
 		(at 132.08 21.59 0)
@@ -5347,6 +5371,28 @@
 			(justify left bottom)
 		)
 		(uuid "5d8d2044-04c3-4cdd-986c-a553dd6f8268")
+	)
+	(text "Rev.: 1.5, mid 2024\n"
+		(exclude_from_sim no)
+		(at 178.562 175.768 0)
+		(effects
+			(font
+				(size 2.4892 2.4892)
+			)
+			(justify left bottom)
+		)
+		(uuid "64e035f5-f695-462d-981c-ad1120e46e84")
+	)
+	(text "Copyright© 2024 Sanne 'SpuQ' Santens. This design is released under\nthe CERN OHL-W license on GitHub."
+		(exclude_from_sim no)
+		(at 178.562 178.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e1e0382-0024-4006-a7a5-713b89b3cb85")
 	)
 	(text "Edgeberry Cartridge connector"
 		(exclude_from_sim no)

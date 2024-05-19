@@ -8179,7 +8179,7 @@
 			(uuid "8131e333-84b1-4582-a2c3-78935078449a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.31 19.05 270)
+			(at 5.31 19.05 -90)
 			(layer "F.Fab")
 			(uuid "57f14f78-04b2-4b0e-97cb-23fad80a4f37")
 			(effects
@@ -17901,7 +17901,7 @@
 		)
 	)
 	(gr_text "REV.: 1.5, Mid 2024"
-		(at 107.05 55.95 0)
+		(at 107 50 0)
 		(layer "Dwgs.User")
 		(uuid "18c61c95-8af1-4986-b67e-c7af9c15ab6b")
 		(effects
@@ -17913,7 +17913,7 @@
 		)
 	)
 	(gr_text "EDGEBERRY"
-		(at 106.35 40.3 0)
+		(at 106.35 36 0)
 		(layer "Dwgs.User")
 		(uuid "77d9af60-1d12-4364-b741-cd68389c0261")
 		(effects
@@ -17925,7 +17925,7 @@
 		)
 	)
 	(gr_text "Console & CAN Cartridge\n"
-		(at 106.55 48.45 0)
+		(at 106.55 44 0)
 		(layer "Dwgs.User")
 		(uuid "a5be2cb8-c68d-4180-8412-69a6b4c5b1d4")
 		(effects
@@ -17934,6 +17934,19 @@
 				(thickness 1)
 			)
 			(justify left)
+		)
+	)
+	(gr_text "Copyright© 2024 Sanne 'SpuQ' Santens. This design is released under\nthe CERN OHL-W license on GitHub."
+		(at 107 57 0)
+		(layer "Dwgs.User")
+		(uuid "dad6d5f8-fe1d-4925-b320-f5870b315cff")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(dimension
@@ -18076,7 +18089,7 @@
 			(xy 143.625 71.75) (xy 140.225 71.75)
 		)
 		(height 4.85)
-		(gr_text "3,4 mm"
+		(gr_text "3.4 mm"
 			(at 143.95 64.65 0)
 			(layer "Dwgs.User")
 			(uuid "bdf40d30-88ff-4479-bad1-69529464b61b")
@@ -18175,7 +18188,7 @@
 			(xy 125.2 135) (xy 125.2 75.2)
 		)
 		(height -12.975)
-		(gr_text "59,8 mm"
+		(gr_text "59.8 mm"
 			(at 110.425 105.1 90)
 			(layer "Dwgs.User")
 			(uuid "f64497d1-1d62-44a4-8e5e-6fba4ebc969a")
