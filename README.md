@@ -37,7 +37,7 @@ ToDo
 ```
 
 ## License & Collaboration
-**Copyright© 2024 Sanne 'SpuQ' Santens**. This project is released under the **CERN OHL-W** license.
+**Copyright© 2024 Sanne 'SpuQ' Santens**. This project is released under the **CERN OHL-W** license. The [Rules & Guidelines](https://github.com/Edgeberry/.github/blob/main/brand/Edgeberry_Trademark_Rules_and_Guidelines.md) apply to the usage of the Edgeberry™ brand.
 
 
 ### Collaboration
