@@ -13,7 +13,7 @@ Expand your Edgeberry's hardware by inserting the Hardware cartridge in the expa
 <br clear="left"/>
 
 ### Console
-Configure your Raspberry Pi to enable console access on the UART with `raspi-config`, or by manually adding following lines the boot configuration file `/boot/config.txt`:
+Configure your Raspberry Pi to enable console access on the UART with `raspi-config`, or by manually adding following lines the boot configuration file `/boot/firmware/config.txt`:
 ```
 dtparam=uart0
 dtparam=uart0_console
@@ -32,9 +32,17 @@ Flow Control: None
 If this went well, you now have access to your Edgeberry's console.
 
 ### CAN-bus
+To enable the CAN interface, add the following lines the boot configuration file `/boot/firmware/config.txt`:
 ```
-ToDo
+# CAN interface
+dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25
 ```
+And reboot your device. After rebooting, set up the CAN interface 
+```
+sudo ip link set can0 up type can bitrate 500000
+```
+Now you can see the `can0` interface when running `ifconfig`.
+
 
 ## License & Collaboration
 **Copyright© 2024 Sanne 'SpuQ' Santens**. This project is released under the **CERN OHL-W** license. The [Rules & Guidelines](https://github.com/Edgeberry/.github/blob/main/brand/Edgeberry_Trademark_Rules_and_Guidelines.md) apply to the usage of the Edgeberry™ brand.
