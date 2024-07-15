@@ -43,6 +43,11 @@ sudo ip link set can0 up type can bitrate 500000
 ```
 Now you can see the `can0` interface when running `ifconfig`.
 
+#### Resources
+https://github.com/iDoka/awesome-canbus<br/>
+https://www.beyondlogic.org/adding-can-controller-area-network-to-the-raspberry-pi/<br/>
+https://www.hackster.io/youness/how-to-connect-raspberry-pi-to-can-bus-b60235<br/>
+http://lnxpps.de/rpie/
 
 ## License & Collaboration
 **Copyright© 2024 Sanne 'SpuQ' Santens**. This project is released under the **CERN OHL-W** license. The [Rules & Guidelines](https://github.com/Edgeberry/.github/blob/main/brand/Edgeberry_Trademark_Rules_and_Guidelines.md) apply to the usage of the Edgeberry™ brand.
