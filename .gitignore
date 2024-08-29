@@ -2,8 +2,11 @@
 datasheets/
 Edgeberry_console_cartridge-backups/
 manufacturing/
+documentation/*.pdf
 Edgeberry_console_cartridge.kicad_prl
 fp-info-cache
 *autosave*
 *auto_saved*
 ~*
+*.step
+*.FCBak

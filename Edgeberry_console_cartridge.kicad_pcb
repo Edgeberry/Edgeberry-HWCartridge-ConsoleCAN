@@ -9091,13 +9091,35 @@
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 -0.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Edgeberry_console_cartridge_faceplate-Body.step"
+			(offset
+				(xyz 31.2 -10 6.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+		(model "/home/tom/Projects/KiCad_library/3D models/dn-3plug.stp"
+			(offset
+				(xyz 13 -2 3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
 			)
 		)
 	)
