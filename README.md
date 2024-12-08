@@ -1,4 +1,4 @@
-![Edgeberry banner](documentation/Edgeberry_banner.png)
+![Edgeberry banner](https://raw.githubusercontent.com/Edgeberry/.github/main/brand/EdgeBerry_banner_cartridge.png)
 
 <img src="documentation/Edgeberry_console_CAN_cartridge.png" align="right" width="50%"/>
 
