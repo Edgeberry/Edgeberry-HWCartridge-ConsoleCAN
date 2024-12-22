@@ -4,7 +4,6 @@
 
 The Edgeberry **Console & CAN Hardware Cartridge** allows you to use your Edgeberry device in a wide range of industrial applications. The CAN-bus is utilized in diverse fields, from medical equipment to heavy industrial machinery. Additionally, the USB interface provides access to your Raspberry Pi's console, enabling direct local control over your device.
 
-<a href="https://www.tindie.com/stores/spuq/?ref=offsite_badges&utm_source=sellers_SpuQ&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
 <br clear="right"/>
 
 ## Usage
