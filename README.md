@@ -11,6 +11,7 @@ The Edgeberry **Console & CAN Hardware Cartridge** allows you to use your Edgebe
 ### Console
 Configure your Raspberry Pi to enable console access on the UART with `raspi-config`, or by manually adding following lines the boot configuration file `/boot/firmware/config.txt`:
 ```
+enable_uart=1
 dtparam=uart0
 dtparam=uart0_console
 ```
