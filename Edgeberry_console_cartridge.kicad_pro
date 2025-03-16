@@ -564,7 +564,7 @@
       "specctra_dsn": "",
       "step": "Edgeberry_console_cartridge.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "../3D models/Edgeberry_Cartridge_Console&CAN.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -662,7 +662,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
+      "model_mode": 4,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
